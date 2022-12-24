@@ -5,7 +5,7 @@ import { Link as LinkS} from 'react-scroll'
 export const Nav = styled.nav`
 background: #000;
 height: 80px;
-/* margin-top: -80px;*/
+margin-top: -80px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -47,8 +47,8 @@ display: none;
 @media screen and (max-width: 768px) {
 display: block;
 position: absolute;
-top: 0;
-right: 0;
+top: 20px;
+right: 20px;
 transform: translate (-100%, 60%);
 font-size: 1.8rem; 
 cursor: pointer;
