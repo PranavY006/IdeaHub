@@ -5,6 +5,7 @@ import Sidebar from '../Components/Sidebar'
 import InfoSection from '../Components/InfoSection';
 import { homeobjOne, homeobjThree, homeobjTwo } from '../Components/InfoSection/Data';
 import Diff from '../Components/Diff';
+import Footer from '../Components/Footer';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState (false);
@@ -21,6 +22,7 @@ const Home = () => {
     <InfoSection {...homeobjOne}/>
     <InfoSection {...homeobjTwo}/>
     <InfoSection {...homeobjThree}/>
+    <Footer />
     </>
   )
 }
