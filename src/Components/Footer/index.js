@@ -8,7 +8,7 @@ const Footer = () => {
         scroll.scrollToTop();
       };
   return (
-    <FooterContainer>
+    <FooterContainer> 
         <FooterWrap>
             <FooterLinksContainer>
                 <FooterLinksWrapper>

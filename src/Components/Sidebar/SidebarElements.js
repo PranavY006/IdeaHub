@@ -60,7 +60,7 @@ color: #fff;
 cursor: pointer;
 
 &:hover {
-    color: #01bf71;
+    color: #4299e1;
     transition: 0.2s ease-in-out;
 }
 `
@@ -72,7 +72,7 @@ justify-content: center;
 
 export const SidebarRoute = styled (LinkR)`
 border-radius: 50px;
-background: #01bf71; 
+background: #4299e1;; 
 white-space: nowrap;
 padding: 16px 64px;
 color: #010606; 
