@@ -20,7 +20,7 @@ const HeroSection = () => {
             Sign up for a new account to upload your ideas and feedbacks.
           </HeroP>
           <HeroBtnWrapper>
-            <Button to="diff" onMouseEnter={onHover} onMouseLeave={onHover} primary='true'dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+            <Button to="projectinfo" onMouseEnter={onHover} onMouseLeave={onHover} primary='true'dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Get Started{hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper> 

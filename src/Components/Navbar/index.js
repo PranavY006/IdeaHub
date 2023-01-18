@@ -38,17 +38,17 @@ const Navbar = ({toggle}) => {
                 >Diff Types</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='about'
+                <NavLinks to='software'
                  smooth={true} duration={500} spy={true} exact='true' offset={-80}
                  >Software</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='discover'
+                <NavLinks to='hardware'
                  smooth={true} duration={500} spy={true} exact='true' offset={-80}
                  >HardWare</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='ideas'
+                <NavLinks to='iot'
                  smooth={true} duration={500} spy={true} exact='true' offset={-80}
                  >IOT</NavLinks>
               </NavItem>
