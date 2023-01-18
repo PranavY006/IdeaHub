@@ -9,7 +9,7 @@ align-items: center;
 padding: 0 30px;
 height: 800px;
 position: relative;
-z-index: 1
+z-index: 1;
 
 :before {
     content: '';
@@ -41,6 +41,12 @@ height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
 background: #232a34;
+
+@media screen and (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+}
+
 `
 
 export const HeroContent = styled.div`
